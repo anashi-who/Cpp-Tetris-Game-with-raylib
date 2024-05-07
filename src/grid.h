@@ -9,6 +9,7 @@ public:
     void Initialize();
     void Print();
     void Draw();
+    void Clear(); // Added clear function
     bool IsCellOutside(int row, int column);
     bool IsCellEmpty(int row, int column);
     int ClearFullRows();
